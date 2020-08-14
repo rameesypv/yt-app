@@ -15,7 +15,7 @@ const SearchBar = (props) => {
         <div className="field" style={{ margin: "10px" }}>
           <input
             type="text"
-            placeholder="Search for a video..."
+            placeholder="Enter a term..."
             value={term}
             onChange={(e) => setTerm(e.target.value)}
           />
